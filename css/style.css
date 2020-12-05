@@ -1,0 +1,106 @@
+#title {
+    background-color: #ec1769;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 7%;
+}
+
+/* Navbar designing */
+.brand {
+    font-family: Righteous;
+    font-size: 2.0rem;
+}
+
+.font-color {
+    color: white;
+}
+
+.nav-item {
+    margin: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+
+}
+
+/* Download button */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title section */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.phone-img {
+    width: 80%;
+}
+
+/* Freatures Section */
+#features {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.sub-title {
+    font-family: Ubuntu;
+    font-weight: 400;
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ec1769;
+}
+
+/* Testimonials */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.testimonial-heading {
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+}
+
+.profile-pic {
+    margin: 30px 30px 0 30px;
+    width: 10%;
+    border-radius: 100%;
+}
+
+em {
+    font-family: Ubuntu;
+    color: white;
+}
