@@ -10,11 +10,16 @@
     <link rel="icon" href="./images/favicon.ico" type="image/gif">
 
     <!-- Google fonts -->
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Ubuntu:wght@400&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&family=Ubuntu:wght@300;400&display=swap"
         rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Ubuntu:wght@400&display=swap" -->
+    <!-- rel="stylesheet"> -->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -43,13 +48,13 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item ">
-                                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#footer">Contact <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#features">Features</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#pricing">Pricing</a>
                             </li>
                         </ul>
                     </div>
@@ -95,28 +100,123 @@
         </div>
     </section>
 
-     <!-- Testimonials -->
+    <!-- Testimonials -->
 
-  <section id="testimonials">
+    <section id="testimonials">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 class="testimonial-heading">You no longer have to sniff other apps to earn. I'm intruducing the
+                        coolest
+                        methods to get paid in RawCash. Woof!</h2>
+                    <img class="profile-pic rounded-circle"" src=" images/rakib.jpg" alt="rakib-profile">
+                    <em>Contributor, Rakibur Rahman.</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-heading">I was used to be so frustated, but with RawCash's help, I've found
+                        the
+                        exciting methods of earning ever. That's Great.</h2>
+                    <img class="profile-pic rounded-circle " src="images/lady-img.jpg" alt="lady-profile">
+                    <em>Beverly, Illinois</em>
+                </div>
 
-    <h2 class="testimonial-heading">You no longer have to sniff other apps to earn. I'm intruducing the coolest methods to get paid in RawCash. Woof!</h2>
-    <img class="profile-pic"" src="images/rakib.jpg" alt="rakib-profile">
-    <em>Contributor, Rakibur Rahman.</em>
+                <!--<div>
+                 In case of adding any other slides. -->
+                <!-- <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                </div> -->
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
 
-  </section>
+    <!-- Pricing -->
+    <section id="pricing">
+        <h2>A Plan for Every User's Needs</h2>
+        <p class="text">Simple and affordable price plans for you.</p>
+        <div class="row">
+            <div class=" pricing-colum col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Starter</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price">Free</h2>
+                        <p><del>Priority Listing</del></p>
+                        <p>5 Matches Per Day</p>
+                        <p>10 Messages Per Day</p>
+                        <p>Unlimited App Usage</p>
+                        <button class="btn btn-outline-dark btn-lg btn-block" type="button">Sign Up</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class=" pricing-colum col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Premium</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>$49 / mo</h2>
+                        <p><del>Priority Listing</del></p>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Unlimited App Usage</p>
+                        <button class="btn btn-dark btn-lg btn-block" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class=" pricing-colum col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Ultra</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>$99 / mo</h2>
+                        <p>Pirority Listing</p>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Unlimited App Usage</p>
+                        <button class="btn btn-dark btn-lg btn-block" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
+    <!-- Footer -->
+    <section id="footer">
+        <div>
+            <h3>- Get in Touch -</h3>
+            <div class="social-icon">
+                <a href="http://facebook.com/rakiburrahman.official/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="http://facebook.com/rakiburrahman.official/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="http://facebook.com/rakiburrahman.official/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="mailto:rahmanrakib780@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>
+                Developed by - 
+                <a href="http://rakiburrahman.me" target="_blank">Rakibur Rahman</a>
+            </p>
+            <p> &copy; All Rights Reserved by RawCash - 2020 </p>
+        </div>
+    </section>
 
-
-
-
-
+    <!-- ./Footer -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
