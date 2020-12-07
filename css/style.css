@@ -4,7 +4,7 @@
 }
 
 .container-fluid {
-    padding: 3% 7%;
+    padding: 3% 7% 14%;
 }
 
 /* Navbar designing */
@@ -47,12 +47,30 @@ h1 {
 
 .phone-img {
     width: 80%;
+    position: absolute;
+}
+
+.rotated {
+    transform: rotate(10deg);
+}
+
+/* Media Quaries for mobile device in title section*/
+@media (max-width:1024px) {
+    .phone-img {
+        visibility: hidden;
+    }
+
+    #title {
+        text-align: center;
+    }
 }
 
 /* Freatures Section */
 #features {
-    padding: 7% 15%;
+    padding: 7% 15% 7%;
     text-align: center;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -81,9 +99,12 @@ h3 {
 
 /* Testimonials */
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 .testimonial-heading {
@@ -97,10 +118,81 @@ h3 {
 .profile-pic {
     margin: 30px 30px 0 30px;
     width: 10%;
-    border-radius: 100%;
+    height: 91px;
 }
 
 em {
     font-family: Ubuntu;
+    color: white;
+}
+
+/* pricing section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-colum {
+    padding: 3% 2%;
+}
+
+.card-text {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#pricing .row .pricing-colum .card .card-body {
+    font-family: Ubuntu;
+    font-weight: 300;
+}
+
+#pricing h2 {
+    font-size: 3rem;
+}
+
+.text {
+    font-size: 1.2rem;
+    font-family: Ubuntu;
+    font-weight: 400;
+}
+
+/* Footer section */
+#footer {
+    background-color: #ec1769;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 0.8rem;
+}
+
+#footer h3 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.social-icon a {
+    margin: 1rem 1rem;
+    color: white;
+}
+
+.social-icon a:hover,
+.copyright p a:hover {
+    color: rgb(247, 242, 0);
+    text-decoration: none;
+}
+
+hr {
+    border-top: 5px dotted rgb(229, 230, 233);
+    color: #fff;
+    height: 1px;
+    width: 2%;
+}
+
+#footer p {
+    line-height: 5px;
+}
+
+.copyright p a {
     color: white;
 }
