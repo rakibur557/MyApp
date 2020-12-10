@@ -10,8 +10,11 @@ Site Details:
 7. Site URL: http://rcash.netlify.app
 
 Description:
+
 This is a simple project. I am lunching an earning app recenty.
-So, I created this site to download my products. More details will be availabe when we lunched our app finally. Stay Tuned. Thank You. 
+So, I created this site to download my products. 
+More details will be availabe when we lunched our app finally. 
+Stay Tuned. Thank You. 
 
 Developer:
 1. Name: Rakibur Rahman
